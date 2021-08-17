@@ -25,11 +25,10 @@ export default function Footer() {
         </div>
         <button onClick={topFunction} id="myBtn">
             <Image src="/images/up-arrow.png" width={40} height={40} alt="alternative" />
-        </button>
-        <Script src="/js/jquery-3.6.0.min.js"></Script>
+        </button>  
+
         <Script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_3.8.1/js/mdb.min.js"/>
 	    <Script src="/js/swiper.min.js"></Script>
-        <Script src="/js/aos.js"></Script>
         <Script src="/js/script.js"></Script>
     </>)
 }

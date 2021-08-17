@@ -22,7 +22,7 @@ class MyDocument extends Document {
         <About />
         <SectionFooter />
         <NextScript />
-        <Main />
+        <Main/>
         </body>
       </Html>
     );

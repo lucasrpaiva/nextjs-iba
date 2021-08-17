@@ -55,7 +55,7 @@ h4 {
 }
 
 a {
-	color: white;
+	color: white !important;
 	text-decoration: none;
 }
 
@@ -435,19 +435,19 @@ background-position: center center;
 
 /* Email - Newsletter Button */
 .btn-secondary {
-	color: black;
-	border-width: 2px;
-	padding: 10px 30px;
-	border-image-slice: 1;
-	background-image: none;
-	background: transparent;
-	border-image-source: var(--gradient);
+	color: black !important;
+	border-width: 2px !important;
+	padding: 10px 30px !important;
+	border-image-slice: 1 !important;
+	background-image: none !important;
+	background: transparent !important;
+	border-image-source: var(--gradient) !important;
 }
 
 .btn-secondary:hover {
-	color: black;
-	padding: 10px 30px;
-	background-image: var(--gradient);
+	color: black !important;
+	padding: 10px 30px !important;
+	background-image: var(--gradient)!important;
 }
 
 /* Other Pages Button */
